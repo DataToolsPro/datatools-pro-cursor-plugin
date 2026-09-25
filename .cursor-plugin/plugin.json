@@ -1,0 +1,14 @@
+{
+  "name": "datatools-pro",
+  "version": "1.0.0",
+  "description": "Manage metrics, goals, and KPIs and related analytics across any analytics tool.",
+  "author": {
+    "name": "DataTools Pro",
+    "email": "support@datatoolspro.com"
+  },
+  "homepage": "https://datatoolspro.com",
+  "repository": "https://github.com/DataToolsPro/datatools-pro-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["metrics", "kpi", "glossary", "analytics", "mcp"],
+  "logo": "assets/logo.svg"
+}
