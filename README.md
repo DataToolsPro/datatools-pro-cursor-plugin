@@ -39,7 +39,7 @@ After OAuth, the assistant can:
 
 The bundled **metrics-analyst** skill tells the agent to look up the glossary before inventing a KPI, to emit Findings on lookalike names, and to refuse delete/merge.
 
-This repository is only the plugin package. The DataTools Pro application is not included.
+This public repository is the source of truth for everything public-facing about the plugin (manifests, skill, README, logo, changelog, and CI). The DataTools Pro application and MCP server are not in this repo.
 
 ## What is in this repo
 

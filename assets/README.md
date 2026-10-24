@@ -11,6 +11,6 @@ Color: `#1EE2AF` (`rgb(30, 226, 175)`), sampled from `https://mcp.us1.datatoolsp
 
 ## TODO (human / DTPV3-730)
 
-The private app repo was not readable from this agent, and ChatGPT plugin `assets/logo.png` was not on a public URL. The 256×256 files are a geometric 4-pointed spark in the production brand color, not a pixel-perfect trace of the 32×32 master.
+The 256×256 files are a geometric 4-pointed spark in the production brand color, not a pixel-perfect trace of the 32×32 master. ChatGPT plugin `assets/logo.png` was not on a public URL.
 
-Replace `logo.png`, `avatar.png`, and `logo.svg` with the official DataTools Pro marketplace artwork (square, ≥48px, preferably 256×256 transparent PNG) when that file is available from design.
+Replace `logo.png`, `avatar.png`, and `logo.svg` in this repository with the official DataTools Pro marketplace artwork (square, ≥48px, preferably 256×256 transparent PNG) when that file is available from design. Do not keep a second copy of these assets elsewhere for listings.

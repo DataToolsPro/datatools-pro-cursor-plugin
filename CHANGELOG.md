@@ -4,7 +4,7 @@ All notable changes to the public DataTools Pro Cursor plugin are listed here.
 
 ## 1.1.0 — 2026-10-24
 
-Marketplace-ready refresh ([DTPV3-732](https://goodmangroup.atlassian.net/browse/DTPV3-732)). Do not treat this changelog entry as a git tag; operators tag `v1.1.0` only after review.
+Marketplace-ready refresh ([DTPV3-732](https://goodmangroup.atlassian.net/browse/DTPV3-732)). This public repository is the source of truth for plugin manifests, skill, README, logo, changelog, and CI. Do not treat this changelog entry as a git tag; tag `v1.1.0` here only after review.
 
 - Dual package format: Agent Plugins root `plugin.json` plus `.cursor-plugin/plugin.json` (and `.claude-plugin/plugin.json` for the Claude bundle).
 - `mcp.json` uses Agent Plugins `$schema`, `type: streamable-http`, and the production URL `https://mcp.us1.datatoolspro.com/mcp`. OAuth is discovered at connect time. No secrets in the repo.
@@ -15,8 +15,8 @@ Marketplace-ready refresh ([DTPV3-732](https://goodmangroup.atlassian.net/browse
 
 ### Release checklist (humans)
 
-1. Merge this PR to `main` of the public plugin repo. **Do not merge from an agent unless an owner asked.**
-2. Tag `v1.1.0` only after Ryan approves the public copy.
+1. Merge this PR to `main`. **Do not merge from an agent unless an owner asked.**
+2. Tag `v1.1.0` on this repository only after Ryan approves the listing copy in this repo.
 3. Submit https://github.com/DataToolsPro/datatools-pro-cursor-plugin at https://cursor.com/marketplace/publish and accept the [Publisher Terms](https://cursor.com/marketplace-publisher-terms).
 4. Submit the same URL at https://cursor.directory/plugins/new if it is not already listed.
 5. After each later release, request a Marketplace re-index. Listings do not follow git automatically.
