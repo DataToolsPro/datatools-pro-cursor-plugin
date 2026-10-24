@@ -1,0 +1,21 @@
+{
+  "name": "datatools-pro",
+  "displayName": "DataTools Pro",
+  "version": "1.1.0",
+  "description": "Governed Metrics Glossary over MCP: look up KPI definitions, relate dashboards, and manage initiatives with OAuth.",
+  "author": {
+    "name": "DataTools Pro",
+    "email": "support@datatoolspro.com",
+    "url": "https://datatoolspro.com"
+  },
+  "homepage": "https://datatoolspro.com",
+  "repository": "https://github.com/DataToolsPro/datatools-pro-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "metrics",
+    "kpi",
+    "glossary",
+    "analytics",
+    "mcp"
+  ]
+}
